@@ -1,0 +1,63 @@
+
+名字 -n： 单数(singular)，复数(plurality )
+形容词 -adj： 名词(noun)， 副词 (adverb)
+介词-prep： preposition
+动词 - v：第三人单数(Third-person singular)， 过去式(past tense)，过去分词(past participle)，现在分词(present participle)，
+短语 （phrase）
+interjection - int
+comparative, superlative
+
+words:
+ {
+	'_id': '000000000000000000000000',
+	'name': 'make',
+	'pronunciation_en':'meɪk',
+	'pronunciation_am':'meɪk',
+	'voice_en':'',
+	'voice_am':'',
+	'explanations': [
+	 {
+		'type': 'v',  // n, adj, v, adv, prep, int, phrase
+		'usages':[
+			{
+			  'meanings': ['使变得'],
+			  'eg': 'She always makes me laugh',
+			  'ch': '她总是让我发笑',
+			  'voice': undefined
+			},
+			{
+			  'meanings': ['制造'],
+			  'eg': 'make a table',
+			  'ch': '做桌子',
+			  'voice': undefined
+			}
+		],
+	 }，
+	 {
+		'type': 'n',  // n, adj, v, adv, prep, int, phrase
+		'usages':[
+			{
+			  'meanings': ['品牌，型号'],
+			  'eg': 'There are so many different makes to choose from',
+			  'ch': '有很多不同的型号可供选择',
+			  'voice': undefined
+			},
+			{
+			  'meanings': ['品牌，型号'],
+			  'eg': 'a Swiss make of watch',
+			  'ch': '一块瑞士表'
+			  'voice': undefined			  
+			}
+		],
+	 }
+	]
+	'singular': undefined,
+	'plurality': undefined,
+	'third_person_singular': ObjectId("000000000000000000000001"),
+	'past_tense': ObjectId("000000000000000000000002"),  // what if it is the same as itself?
+	'past_participle': ObjectId("000000000000000000000003"),
+	'present participle': ObjectId("000000000000000000000004"),
+	'comparative': undefined,
+	'superlative': undefined,
+	'isOrigin':true
+ }
